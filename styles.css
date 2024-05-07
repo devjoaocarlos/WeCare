@@ -77,3 +77,81 @@ p {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   cursor: pointer;
 }
+
+@media screen and (max-width: 1300px) {
+  header {
+    width: 80vw;
+    margin: 50px auto;
+  }
+
+  .logo-image {
+    display: block; 
+    margin: 0 auto;
+  }
+
+  .section {
+    display: block;
+    text-align: center;
+  }
+
+  p {
+    width: auto;
+    padding: 0 40px;
+  }
+
+  .button-section {
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 911px) {
+  header {
+    display: none;
+  }
+
+  .logo-image {
+    margin-top: 60px;
+  }
+
+  p {
+    padding: 0 40px;
+    width: auto;
+  }
+
+  .button-section {
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logo-image {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 35px;
+    margin-bottom: 3rem;
+  }
+
+  p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .logo-image {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+}
